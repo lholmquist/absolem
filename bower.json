@@ -5,7 +5,6 @@
     "underscore": "~1.4.3",
     "backbone": "~1.0.0",
     "jquery": "~1.9.1",
-    "aerogear": "~1.1.2",
     "topcoat": "~0.5.1"
 
   },
