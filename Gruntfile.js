@@ -32,14 +32,6 @@ module.exports = function (grunt) {
                 nospawn: true,
                 livereload: true
             },
-            coffee: {
-                files: ['<%= yeoman.app %>/scripts/{,*/}*.coffee'],
-                tasks: ['coffee:dist']
-            },
-            coffeeTest: {
-                files: ['test/spec/{,*/}*.coffee'],
-                tasks: ['coffee:test']
-            },
             livereload: {
                 options: {
                     livereload: LIVERELOAD_PORT
